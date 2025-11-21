@@ -1,4 +1,7 @@
 
+using Evently.Api.Extensions;
+using Evently.Modules.Events.Api;
+
 namespace Evently.Api;
 
 // ReSharper disable once ClassNeverInstantiated.Global
@@ -10,7 +13,10 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddAuthorization();
+        
+        builder.Services.AddEventModule(builder.Configuration);
 
+        
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
 
@@ -20,12 +26,14 @@ public class Program
         if (app.Environment.IsDevelopment())
         {
             app.MapOpenApi();
+            app.ApplyMigrations();
         }
 
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
 
+        EventsModule.MapEndpoints(app);
         app.Run();
     }
 }

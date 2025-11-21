@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\erfan\\Documents\\_projects\\Personal\\Evently\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63843B6A-1087-4A1D-A3EB-021640C5FAA7}|src\\API\\Evently.Api\\Evently.Api.csproj|c:\\users\\erfan\\documents\\_projects\\personal\\evently\\src\\api\\evently.api\\evently.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63843B6A-1087-4A1D-A3EB-021640C5FAA7}|src\\API\\Evently.Api\\Evently.Api.csproj|solutionrelative:src\\api\\evently.api\\evently.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D46104-0D66-4524-8F77-36BA1BD75295}|src\\Modules\\Events\\Evently.Modules.Events.Api\\Evently.Modules.Events.Api.csproj|c:\\users\\erfan\\documents\\_projects\\personal\\evently\\src\\modules\\events\\evently.modules.events.api\\eventsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D46104-0D66-4524-8F77-36BA1BD75295}|src\\Modules\\Events\\Evently.Modules.Events.Api\\Evently.Modules.Events.Api.csproj|solutionrelative:src\\modules\\events\\evently.modules.events.api\\eventsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Evently.Api",
+              "DocumentMoniker": "C:\\Users\\erfan\\Documents\\_projects\\Personal\\Evently\\src\\API\\Evently.Api\\Evently.Api.csproj",
+              "RelativeDocumentMoniker": "src\\API\\Evently.Api\\Evently.Api.csproj",
+              "ToolTip": "C:\\Users\\erfan\\Documents\\_projects\\Personal\\Evently\\src\\API\\Evently.Api\\Evently.Api.csproj",
+              "RelativeToolTip": "src\\API\\Evently.Api\\Evently.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-21T13:45:28.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsModule.cs",
+              "DocumentMoniker": "C:\\Users\\erfan\\Documents\\_projects\\Personal\\Evently\\src\\Modules\\Events\\Evently.Modules.Events.Api\\EventsModule.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\Events\\Evently.Modules.Events.Api\\EventsModule.cs",
+              "ToolTip": "C:\\Users\\erfan\\Documents\\_projects\\Personal\\Evently\\src\\Modules\\Events\\Evently.Modules.Events.Api\\EventsModule.cs",
+              "RelativeToolTip": "src\\Modules\\Events\\Evently.Modules.Events.Api\\EventsModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:37:04.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

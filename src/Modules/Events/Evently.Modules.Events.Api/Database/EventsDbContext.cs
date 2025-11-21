@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Evently.Modules.Events.Api.Database;
 
-public sealed class EventsDbContext(DbContextOptions<EventsDbContext> options) : DbContext(options)
+public sealed class EventsDbContext: DbContext
 {
-    internal DbSet<Event>  Events { get; set; }
+    public EventsDbContext(DbContextOptions<EventsDbContext> options): base(options){}
+    internal DbSet<Event> Events { get; set; } = null!;
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
